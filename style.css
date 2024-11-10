@@ -34,7 +34,7 @@ body {
 .tempo-menu button {
   background-color: rgb(201, 163, 238);
   border: none;
-  border-radius: 5ox;
+  border-radius: 5px;
   padding: 20px 40px;
   border-radius: 5px;
   display: block;
@@ -45,4 +45,30 @@ body {
 .tempo-menu button:hover {
   transform: scale(1.1);
   background-color: blueviolet;
+}
+
+@media (max-width: 800px) {
+  .tempo {
+    width: 400px;
+    height: 300px;
+    font-size: 1.5rem;
+  }
+  .tempo-dados {
+    font-size: 2rem;
+    color: white;
+  }
+  .tempo-menu {
+    display: flex;
+    gap: 10px;
+  }
+  .tempo-menu button {
+    background-color: rgb(201, 163, 238);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    font-size: 1rem;
+    cursor: pointer;
+  }
 }
