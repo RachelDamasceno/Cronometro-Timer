@@ -5,6 +5,7 @@ body {
   height: 100vh;
   margin: 0;
   background-color: rgb(109, 108, 108);
+  margin: 0px;
 }
 
 .tempo {
@@ -25,6 +26,7 @@ body {
 .tempo-dados {
   font-size: 3rem;
   color: white;
+  /* padding: 20px; */
 }
 
 .tempo-menu {
@@ -49,23 +51,27 @@ body {
 
 @media (max-width: 800px) {
   .tempo {
-    width: 400px;
-    height: 300px;
+    max-width: 250px;
+    max-height: 250px;
     font-size: 1.5rem;
+    gap: 0px;
   }
   .tempo-dados {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    display: block;
     color: white;
+    gap: 0px;
   }
   .tempo-menu {
     display: flex;
-    gap: 10px;
+    gap: 5px;
   }
   .tempo-menu button {
     background-color: rgb(201, 163, 238);
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 50px;
     border-radius: 5px;
     display: block;
     font-size: 1rem;
