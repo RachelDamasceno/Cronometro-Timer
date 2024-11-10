@@ -51,13 +51,13 @@ body {
 
 @media (max-width: 800px) {
   .tempo {
-    max-width: 400px;
-    max-height: 400px;
-    font-size: 1.5rem;
+    max-width: 500px;
+    max-height: 500px;
+    font-size: 2rem;
     gap: 0px;
   }
   .tempo-dados {
-    font-size: 2rem;
+    font-size: 3rem;
     display: block;
     color: white;
     gap: 0px;
@@ -70,11 +70,11 @@ body {
     background-color: rgb(201, 163, 238);
     border: none;
     border-radius: 5px;
-    padding: 10px 10px;
-    margin-bottom: 50px;
+    padding: 15px 25px;
+    /* margin-bottom: 50px; */
     border-radius: 5px;
     display: block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
   }
 }
