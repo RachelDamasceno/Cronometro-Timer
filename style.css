@@ -51,8 +51,8 @@ body {
 
 @media (max-width: 800px) {
   .tempo {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
     font-size: 1.5rem;
     gap: 0px;
   }
