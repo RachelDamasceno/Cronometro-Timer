@@ -8,6 +8,18 @@ body {
   margin: 0px;
 }
 
+:root {
+  --cor-fundo: rgb(131, 32, 126);
+  --cor-letras: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-fundo: black;
+    --cor-letras: white;
+  }
+}
+
 .tempo {
   width: 600px;
   height: 600px;
@@ -18,14 +30,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(131, 32, 126);
+  background-color: var(--cor-fundo);
   border: solid black 4px;
   gap: 20px;
 }
 
 .tempo-dados {
   font-size: 3rem;
-  color: white;
+  color: var(--cor-letras);
   /* padding: 20px; */
 }
 
@@ -50,7 +62,7 @@ body {
 }
 .tempo-menu button.selected {
   background-color: blueviolet;
-  color: white;
+  color: var(--cor-letras);
   transform: scale(1.1);
 }
 
